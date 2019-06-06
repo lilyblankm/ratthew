@@ -1,0 +1,38 @@
+.class{
+  object-fit: fill;
+}
+img{
+  margin: 50px;
+  padding: 2px;
+  width: cover;
+  height: 250px;
+  border-width: 10px;
+  border-color: #ffb3ff;
+  border-style: double;
+}
+.topnav {
+  background-color: #ffb3ff;
+  overflow: hidden;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: black;
+  background-color: #ffb3ff
+h1{
+  font-family: 'Dancing Script', cursive;
+}
